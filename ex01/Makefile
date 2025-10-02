@@ -1,5 +1,5 @@
 NAME	= PhoneBook
-SRC		= main.cpp
+SRC		= main.cpp Contact.cpp PhoneBook.cpp
 INCLUDE	= PhoneBook.hpp Contact.hpp
 OBJ		= $(SRC:.cpp=.o)
 CFLAGS  = -Wall -Wextra -Werror -std=c++98
